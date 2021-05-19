@@ -1,7 +1,7 @@
 import React from 'react'
 import { Range } from 'react-range'
 import PlayGround from '../PlayGround/PlayGround'
-import CodePreview from '../codePreview/CodePreview'
+import CodePreview from '../CodePreview/CodePreview'
 
 const FromConfig = [
   {
