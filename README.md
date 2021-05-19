@@ -13,7 +13,7 @@
   </p>
 
   <p align="center">
-    <a href="https://convoychat.herokuapp.com">View Demo🖱️</a>
+    <a href="https://react-spring-player.netlify.app/">View Demo🖱️</a>
     ·
     <a href="https://github.com/apshada/React-Spring-Player/issues">Report Bug 🐛</a>
     ·
