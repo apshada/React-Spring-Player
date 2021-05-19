@@ -1,5 +1,5 @@
-import React from "react";
-import { CopyBlock, dracula } from "react-code-blocks";
+import React from 'react'
+import { CopyBlock, dracula } from 'react-code-blocks'
 
 const CodePreview = ({
   fromConfiguration,
@@ -28,9 +28,9 @@ const PlayGround = () => {
 
 export default PlayGround
 
-          `;
+          `
 
-  return <CopyBlock text={code} language="jsx" theme={dracula} codeBlock />;
-};
+  return <CopyBlock text={code} language='jsx' theme={dracula} codeBlock />
+}
 
-export default CodePreview;
+export default CodePreview
