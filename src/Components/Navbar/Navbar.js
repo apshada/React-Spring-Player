@@ -18,13 +18,13 @@ export default function Navbar({ fixed }) {
             >
               React Spring Player
             </Link>
-//             <button
-//               className='text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
-//               type='button'
-//               onClick={() => setNavbarOpen(!navbarOpen)}
-//             >
-//               👇
-//             </button>
+            <button
+              className='text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
+              type='button'
+              onClick={() => setNavbarOpen(!navbarOpen)}
+            >
+           
+            </button>
           </div>
           <div
             className={
@@ -36,10 +36,6 @@ export default function Navbar({ fixed }) {
             <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
               <li className='nav-item'>
                 <span className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'>
-//                   <Link className='ml-2' to='/trail'>
-//                     Use Trail
-//                   </Link>
-                  {/* <span onClick={handleClick}>Use Trail</span> */}
                 </span>
               </li>
             </ul>
