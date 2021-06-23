@@ -1,11 +1,10 @@
 import React from 'react'
-import { useHistory } from 'react-router'
 import { Link } from 'react-router-dom'
 
-export default function Navbar({ fixed }) {
+export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
 
-  const history = useHistory()
+  // const history = useHistory()
 
   return (
     <>
@@ -21,9 +20,9 @@ export default function Navbar({ fixed }) {
             <button
               className='text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
               type='button'
-              onClick={() => setNavbarOpen(!navbarOpen)}
+              onClick={setNavbarOpen(!navbarOpen)}
             >
-           
+              👇
             </button>
           </div>
           <div
@@ -36,6 +35,10 @@ export default function Navbar({ fixed }) {
             <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
               <li className='nav-item'>
                 <span className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'>
+                  <Link className='ml-2' to='/trail'>
+                    Use Trail
+                  </Link>
+                  {/* <span onClick={handleClick}>Use Trail</span> */}
                 </span>
               </li>
             </ul>
