@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { useTrail, animated } from 'react-spring'
 
 const useTrailPlay = ({
@@ -14,7 +14,7 @@ const useTrailPlay = ({
   return (
     <div className='w-full h-screen/2 flex justify-center items-center bg-gradient-to-r from-green-500 to-blue-300'>
       {styles.map((props, index) => {
-        return <animated.div key={index}></animated.div>
+        return <animated.div key={index} style={props}></animated.div>
       })}
     </div>
   )
