@@ -5,7 +5,9 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
 
   // const history = useHistory()
-
+  const handleNav = () => {
+    setNavbarOpen(!navbarOpen)
+  }
   return (
     <>
       <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 bg-pink-500'>
@@ -20,7 +22,7 @@ export default function Navbar() {
             <button
               className='text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
               type='button'
-              onClick={setNavbarOpen(!navbarOpen)}
+              onClick={handleNav}
             >
               👇
             </button>
