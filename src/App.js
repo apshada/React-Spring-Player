@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import useTrailConfig from './Containers/Range/useTrail'
 
+//Add Comment
 const App = () => (
   <>
     <Router>
